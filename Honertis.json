@@ -1,7 +1,7 @@
 {
-  "id": "Honertis 1.7",
+  "id": "Honertis 1.7U3",
   "family": "unknown",
-  "time": "2025-08-27T10:44:30Z",
+  "time": "2025-12-15T01:57:50Z",
   "releaseTime": "2015-12-03T09:24:39Z",
   "type": "release",
   "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type}",
@@ -9,6 +9,26 @@
   "minimumLauncherVersion": 14,
   "tlauncherVersion": 0,
   "libraries": [
+    {
+      "name": "net:arikia:discord-rpc:1.0",
+      "downloads": {
+        "artifact": {
+          "url": "https://nexus.funkemunky.cc/repository/releases/net/arikia/discord-rpc/1.0/discord-rpc-1.0.jar",
+          "sha1": "0fc624b3f13255c36ab7dfe4ec4bc50b8d628361",
+          "size": 2067033
+        }
+      }
+    },
+    {
+      "name": "org:json:json:20250517",
+      "downloads": {
+        "artifact": {
+          "url": "https://repo1.maven.org/maven2/org/json/json/20250517/json-20250517.jar",
+          "sha1": "d67181bbd819ccceb929b580a4e2fcb0c8b17cd8",
+          "size": 82710
+        }
+      }
+    },
     {
       "name": "org:yaml:snakeyaml:1.30",
       "downloads": {
